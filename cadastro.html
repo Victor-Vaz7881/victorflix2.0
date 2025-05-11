@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Conta - VictorFLIX</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('fundo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background: url('imagens/fundo1.jpg') no-repeat center center fixed;
+    }
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .container {
+      position: relative;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 25px;
+      color: #f39c12;
+      font-size: 2rem;
+    }
+    input, button {
+      width: 100%;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border-radius: 5px;
+      font-size: 1rem;
+      border: none;
+      box-sizing: border-box;
+    }
+    input {
+      background: #333;
+      color: #fff;
+      border: 1px solid #555;
+    }
+    input::placeholder {
+      color: #bbb;
+    }
+    button {
+      background-color: #e50914;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #f6121d;
+    }
+    .error-message {
+      color: #ff6b6b;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      display: none;
+    }
+    .back-button {
+      margin-top: 15px;
+      background-color: transparent;
+      color: #bbb;
+      text-decoration: underline;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="container">
+    <h1>Criar Conta</h1>
+    <form id="register-form">
+      <input type="text" id="new-username" placeholder="Novo usuário" required>
+      <input type="password" id="new-password" placeholder="Nova senha" required>
+      <button type="submit">Criar Conta</button>
+    </form>
+    <div id="error-message" class="error-message"></div>
+
+    <button class="back-button" onclick="voltarLogin()">Já tenho conta</button>
+  </div>
+
+  <script>
+    const form = document.getElementById('register-form');
+    const errorMessage = document.getElementById('error-message');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const newUsername = document.getElementById('new-username').value.trim();
+      const newPassword = document.getElementById('new-password').value.trim();
+
+      if (!newUsername || !newPassword) {
+        showError("Preencha todos os campos!");
+        return;
+      }
+
+      const accounts = JSON.parse(localStorage.getItem('victorflixAccounts')) || [];
+
+      if (accounts.some(u => u.username === newUsername)) {
+        showError("Nome de usuário já existe!");
+        return;
+      }
+
+      accounts.push({ username: newUsername, password: newPassword });
+
+      localStorage.setItem('victorflixAccounts', JSON.stringify(accounts));
+
+      alert("Conta criada com sucesso! Faça login.");
+      window.location.href = "login.html";
+    });
+
+    function showError(message) {
+      errorMessage.style.display = 'block';
+      errorMessage.textContent = message;
+    }
+
+    function voltarLogin() {
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>

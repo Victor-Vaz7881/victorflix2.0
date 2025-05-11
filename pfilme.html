@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VictorFLIX – Filmes</title>
+  <!-- Você pode extrair esse bloco para animestyle.css ou filmestyle.css -->
+  <style>
+    /* ==== RESET BÁSICO ==== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* ==== TIPOGRAFIA E FUNDO ==== */
+    body {
+      font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+      color: #fff;
+      background-color: #181818;
+      background-image: url('/imagens/fundoinfinito.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow-y: scroll;
+      height: 100%;
+    }
+    ::-webkit-scrollbar { width: 0; }
+    /* ==== FUNDO EMBAÇADO ==== */
+    .background-container {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      transform: scale(1.1);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(50%) blur(5px);
+      z-index: -1;
+      transition: background-image 0.5s ease-in-out;
+    }
+    /* ==== NAVBAR ==== */
+    .navbar {
+      width: 100%;
+      background: transparent;
+      padding: 10px 20px;
+      position: relative;
+      z-index: 1000;
+    }
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-flix img {
+      padding: 20px;
+      width: 370px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .logo-flix img:hover {
+      transform: scale(1.1);
+    }
+    .nav-links ul {
+      display: flex;
+      list-style: none;
+    }
+    .nav-links ul li {
+      margin: 0 15px;
+    }
+    .nav-links ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+      transition: color 0.3s;
+    }
+    .nav-links ul li a:hover {
+      color: #e50914;
+    }
+    /* ==== PESQUISA ==== */
+    .search-container {
+      position: relative;
+      display: inline-block;
+    }
+    .search-icon {
+      width: 30px; height: 30px;
+      display: flex;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .search-icon:hover {
+      color: #e50914;
+    }
+    .search-bar {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #141414;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      z-index: 1000;
+    }
+    .search-bar.active {
+      display: block;
+    }
+    .search-bar input {
+      width: 200px;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      font-size: 14px;
+      color: #000;
+    }
+    #search-results {
+      position: absolute;
+      top: calc(100% + 4px);
+      right: 0;
+      background: #202020;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      max-height: 300px;
+      overflow-y: auto;
+      width: 100%;
+      z-index: 1001;
+    }
+    .search-result-item {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .search-result-item img {
+      width: 50px;
+      height: 70px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 3px;
+    }
+    .search-result-item:hover {
+      background: #440000;
+    }
+    /* ==== LOGO FILMES ==== */
+    .logofilmes {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .logofilmes img {
+      max-width: 200px;
+    }
+    /* ==== GRADE DE FILMES ==== */
+    .filmes-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+      margin: 20px auto;
+      z-index: 1;
+    }
+    .movie {
+      width: 200px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .movie img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+    .movie:hover {
+      transform: scale(1.05);
+    }
+    /* ==== RODAPÉ ==== */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* mantêm o estilo de fundo e texto */
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  z-index: 1000;
+}
+    /* ==== RESPONSIVO ==== */
+    @media (max-width: 768px) {
+      .search-bar input { width: 150px; }
+      .logo-flix img { width: 300px; }
+      .nav-links ul li a { font-size: 16px; }
+      .movie { width: 150px; }
+      .movie img { height: 220px; }
+    }
+/* ======================== */
+/* ANIMAÇÕES                */
+/* ======================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo-flix">
+        <a href="index.html"><img src="/imagens/VictorFlixlogo.gif" alt="VictorFLIX"></a>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pserie.html">Séries</a></li>
+          <li><a href="pfilme.html">Filmes</a></li>
+          <li><a href="panime.html">Animes</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <div class="search-icon" id="search-icon">
+          <img src="/imagens/lupa.png" alt="Pesquisar">
+        </div>
+        <div class="search-bar" id="search-bar">
+          <input type="text" id="search-input" placeholder="Pesquisar...">
+          <div id="search-results"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="background-container"></div>
+    <!-- <div class="logofilmes">
+      <img src="/imagens/filmelogo.png" alt="Logo Filmes">
+    </div> -->
+    <section class="filmes-container" id="filmes-container"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VictorFLIX – Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    (async function() {
+      // 1) Carrega JSONs antes de tudo
+      let filmes = [], series = [], animes = [];
+      async function fetchCatalogData() {
+        try {
+          const [fRes, sRes, aRes] = await Promise.all([
+            fetch('./json/filmes.json'),
+            fetch('./json/series.json'),
+            fetch('./json/animes.json')
+          ]);
+          filmes = await fRes.json();
+          series = await sRes.json();
+          animes = await aRes.json();
+        } catch (e) {
+          console.error('Erro ao carregar catálogo:', e);
+          alert('Não foi possível carregar o catálogo completo.');
+        }
+      }
+      await fetchCatalogData();
+
+      // 2) Inicializa a pesquisa
+      const searchIcon    = document.getElementById('search-icon');
+      const searchBar     = document.getElementById('search-bar');
+      const searchInput   = document.getElementById('search-input');
+      const searchResults = document.getElementById('search-results');
+
+      searchIcon.addEventListener('mouseover', () => searchBar.classList.add('active'));
+      searchInput.addEventListener('focus', () => searchBar.classList.add('active'));
+      searchBar.addEventListener('mouseleave', () => {
+        if (!searchInput.value.trim()) {
+          searchBar.classList.remove('active');
+          searchResults.style.display = 'none';
+        }
+      });
+
+      let debounceTimer;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          const q = searchInput.value.trim();
+          if (q) updateSearch(filterSearch(q));
+          else searchResults.style.display = 'none';
+        }, 300);
+      });
+
+      function filterSearch(q) {
+        const all = [...filmes, ...series, ...animes];
+        return all.filter(item => {
+          const title = item.nome || item.serie || item.anime;
+          return title.toLowerCase().includes(q.toLowerCase());
+        });
+      }
+
+      function updateSearch(results) {
+        searchResults.innerHTML = '';
+        if (!results.length) {
+          searchResults.style.display = 'none';
+          return;
+        }
+        results.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'search-result-item';
+          div.style.display = 'flex';
+          div.style.alignItems = 'center';
+          div.style.marginBottom = '8px';
+          div.style.cursor = 'pointer';
+
+          const img = document.createElement('img');
+          img.src = item.cover || '/imagens/default_cover.jpg';
+          div.appendChild(img);
+
+          const txt = document.createElement('span');
+          txt.textContent = item.nome || item.serie || item.anime;
+          div.appendChild(txt);
+
+          div.addEventListener('click', () => {
+            const isS = !!item.temporadas;
+            const page = isS
+              ? (item.serie ? 'serie.html' : 'anime.html')
+              : 'filme.html';
+            window.location.href = `${page}?id=${encodeURIComponent(item.id)}`;
+          });
+
+          searchResults.appendChild(div);
+        });
+        searchResults.style.display = 'block';
+      }
+
+      // 3) Popula lista de filmes
+      const filmesContainer = document.getElementById('filmes-container');
+      filmes.forEach(f => {
+        const div = document.createElement('div');
+        div.className = 'movie';
+        div.innerHTML = `<img src="${f.cover||'/imagens/default_cover.jpg'}" alt="${f.nome}">`;
+        div.addEventListener('click', () => {
+          window.location.href = `filme.html?nome=${encodeURIComponent(f.nome)}&path=${encodeURIComponent(f.path)}&cover=${encodeURIComponent(f.cover)}`;
+        });
+        filmesContainer.appendChild(div);
+      });
+    })();
+  </script>
+</body>
+</html>

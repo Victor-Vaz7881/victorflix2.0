@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VictorFLIX – Filme</title>
+  <link rel="icon" href="/imagens/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="beckend/style.css">
+  <link rel="stylesheet" href="beckend/filmestyle.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo-flix">
+        <a href="index.html"><img src="/imagens/VictorFlixlogo.gif" alt="VictorFLIX"></a>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pserie.html">Séries</a></li>
+          <li><a href="pfilme.html">Filmes</a></li>
+          <li><a href="panime.html">Animes</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <div class="search-icon" id="search-icon">
+          <img src="/imagens/lupa.png" alt="">
+        </div>
+        <div class="search-bar" id="search-bar">
+          <input type="text" id="search-input" placeholder="Pesquisar...">
+          <div class="search-results" id="search-results"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="movie-container">
+    <h2 id="movie-title"></h2>
+    <img id="movie-cover" src="" alt="">
+    <video id="movie-player" controls>
+      <source id="movie-source" src="" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+    <div class="controls">
+      <button id="replay-btn">Assistir Novamente</button>
+      <button id="back-btn">Voltar</button>
+    </div>
+  </div>
+
+  <div class="background-container"></div>
+  <script src="beckend/filmescript.js"></script>
+</body>
+</html>

@@ -1,0 +1,1021 @@
+[
+    {
+        "id": "67eeb68d-c7b9-4fa0-aa2f-0c8b635eddc4",
+        "serie": "O Príncipe Dragão",
+        "cover": "./capas/O Príncipe Dragão.jpg",
+        "temporadas": [
+            {
+                "season": 1,
+                "episodes": [
+                    {
+                        "id": "d60dacea-4f19-4f7b-9f2a-29205856eb41",
+                        "episode": 1,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 1.mp4"
+                    },
+                    {
+                        "id": "ddf9e79b-bdbb-4c8f-9a43-0af273614f16",
+                        "episode": 2,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 2.mp4"
+                    },
+                    {
+                        "id": "0d467431-4a19-420c-b976-35bd41331f96",
+                        "episode": 3,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 3.mp4"
+                    },
+                    {
+                        "id": "bb208abd-4119-41ae-b6da-e15c8212aa72",
+                        "episode": 4,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 4.mp4"
+                    },
+                    {
+                        "id": "5b0a7c30-6f3c-40c4-93db-b6562623e48b",
+                        "episode": 5,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 5.mp4"
+                    },
+                    {
+                        "id": "11a6b1ac-de34-4705-bc3e-926ef1a69fd5",
+                        "episode": 6,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 6.mp4"
+                    },
+                    {
+                        "id": "b816b54b-062e-4eef-98f7-1bf664779ce9",
+                        "episode": 7,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 7.mp4"
+                    },
+                    {
+                        "id": "b57b67a6-7a9f-4279-8547-ff912c91869f",
+                        "episode": 8,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 8.mp4"
+                    },
+                    {
+                        "id": "ffdf4c02-f19c-4df8-9f72-c0897dbbcaa5",
+                        "episode": 9,
+                        "path": "./series/O Príncipe Dragão/Temporada 1/Episodio 9.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5802613f-1622-4360-8a43-d08002c27674",
+        "serie": "The Big Bang Theory",
+        "cover": "./capas/The Big Bang Theory.jpg",
+        "temporadas": [
+            {
+                "season": 1,
+                "episodes": [
+                    {
+                        "id": "96dcd486-bbd1-4aff-b948-85294b580b13",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 1/1 - Piloto.mp4"
+                    },
+                    {
+                        "id": "fdc9e4f7-478c-4283-87db-21c0483b0466",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 1/2 - A Hipótese do Grande Farelo.mp4"
+                    },
+                    {
+                        "id": "7c2caaa4-2948-4b25-a032-4c6880f7b29c",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 1/3 - O Resultado Coturno Peludo.mp4"
+                    },
+                    {
+                        "id": "d57cff0c-c6d2-4119-9f02-e6003ddc5394",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 1/4 - O Efeito do Peixe Luminoso.mp4"
+                    },
+                    {
+                        "id": "77cd8d0e-0499-4ae4-bc2a-ea44b2a24f97",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 1/5 - O Postulado do Hambúrguer.mp4"
+                    },
+                    {
+                        "id": "1d2b75c7-355e-4842-a42a-0301535b2f79",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 1/6  - O Paradigma da Terra Média.mp4"
+                    },
+                    {
+                        "id": "18d09c27-7160-4d3a-9969-fdf9244e4c08",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 1/7 - O Paradoxo da Torta.mp4"
+                    },
+                    {
+                        "id": "341e31d3-01d5-43c6-b8d5-60cdb58b3c31",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 1/8 - A Experiência do Gafanhoto.mp4"
+                    },
+                    {
+                        "id": "fea3fc15-92d0-4a81-bd71-a706987d6a26",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 1/9 - A Polarização Cooper-Hofstadter.mp4"
+                    },
+                    {
+                        "id": "e9833ed9-6a38-4ea8-92e8-58ece4ba318b",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 1/10 - A Decadência Loobenfeld.mp4"
+                    },
+                    {
+                        "id": "9a24dd3f-c053-418e-9623-e68a49663bca",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 1/11 - A Anomalia da Melhor Panqueca.mp4"
+                    },
+                    {
+                        "id": "db1c9af6-0c96-467e-a92f-d87767520204",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 1/12 - A Derualidade De Jerusalém.mp4"
+                    },
+                    {
+                        "id": "64bf86f1-aa85-410a-ba7d-56cacc8e673e",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 1/13 - A Conjetura da Bat Jarra.mp4"
+                    },
+                    {
+                        "id": "0bdd5278-7dc4-4fe0-a13f-cfba6387ad73",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 1/14 - A Anaquilação do Nerdvana.mp4"
+                    },
+                    {
+                        "id": "384ee922-a0c7-42bc-8297-8be557ebf027",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 1/15 - A Indeterminância da Mulher Não Judia.mp4"
+                    },
+                    {
+                        "id": "5dd15c4b-e40f-4752-9d2f-08d9bed25f1d",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 1/16 - A Reação ao Amendoim.mp4"
+                    },
+                    {
+                        "id": "f3f57efb-be31-4cbb-a7cc-71f848f5ada9",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 1/17 - O Fator Tangerina.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 2,
+                "episodes": [
+                    {
+                        "id": "0f0014e4-718d-4bd0-8460-24626d77ff63",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 2/1 - O Paradigma do Peixe Podre.mp4"
+                    },
+                    {
+                        "id": "29ddfdbc-579e-4894-bb24-ba912edee369",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 2/2 - A Topologia do Alçapão.mp4"
+                    },
+                    {
+                        "id": "23a57cb6-a4d7-4047-8beb-3d520ef97abb",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 2/3 - A Sublimação Bárbara.mp4"
+                    },
+                    {
+                        "id": "295c1159-67f7-42a9-9db2-13157a27dbdb",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 2/4 - A Equivalência do Grifo.mp4"
+                    },
+                    {
+                        "id": "10ffe41c-8d00-4aba-a0f9-870d7e0cf4e8",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 2/5 - A Alternativa Euclidiana.mp4"
+                    },
+                    {
+                        "id": "94cf6966-79e9-452c-a15a-245cc578f8bc",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 2/6 - O Teorema Cooper-Nowitzki.mp4"
+                    },
+                    {
+                        "id": "5bde1478-1126-4c7e-be7d-1044977eb931",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 2/7 - A Polarização da Pescaria de Sutiã.mp4"
+                    },
+                    {
+                        "id": "5651ff4b-29f0-43b6-9a81-7586a8ce64a8",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 2/8 - A Expansão do Lagarto-Spock.mp4"
+                    },
+                    {
+                        "id": "f545a071-602f-4670-a3b1-fedfcec5ee06",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 2/9 - A Triangulação do Aspargo Branco.mp4"
+                    },
+                    {
+                        "id": "7ae76cb6-b678-49c1-acd6-9c4f84409c18",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 2/10 - O Enigma de Vartabedian.mp4"
+                    },
+                    {
+                        "id": "432b8d27-3aa1-404d-88d1-cb3bdd9c619a",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 2/11 - A Hipótese do Kit de Banho como Presente.mp4"
+                    },
+                    {
+                        "id": "de2d9f1b-0f6e-4464-add0-2a1fcb6cfe95",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 2/12 - A Instabilidade do Robô Assassino.mp4"
+                    },
+                    {
+                        "id": "28cdbd01-83ce-4742-8d17-f5c9fca13455",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 2/13 - O Algoritmo da Amizade.mp4"
+                    },
+                    {
+                        "id": "87eee1e7-596c-49c4-b41a-34c272de84df",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 2/14 - A Permeabilidade Financeira.mp4"
+                    },
+                    {
+                        "id": "8d47da79-2989-46fd-9605-27593cbfe059",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 2/15 - A Capacitância Maternal.mp4"
+                    },
+                    {
+                        "id": "92ba1378-63fc-40af-900f-96c590291b5c",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 2/16 - A Saturação da Almofada.mp4"
+                    },
+                    {
+                        "id": "5c32fe8e-363d-42d8-a33e-2cee0dc8d81a",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 2/17 - A Desconexão do Exterminador.mp4"
+                    },
+                    {
+                        "id": "53e61987-5f88-46d3-a114-37e50f4e2273",
+                        "episode": 18,
+                        "path": "./series/The Big Bang Theory/Temporada 2/18 - A Nanopartícula da Música de Trabalho.mp4"
+                    },
+                    {
+                        "id": "1fcd825a-ea8d-4e9f-be36-1a7629cbb4ac",
+                        "episode": 19,
+                        "path": "./series/The Big Bang Theory/Temporada 2/19 - A Justaposição da Prostituta Morta.mp4"
+                    },
+                    {
+                        "id": "10958469-dbe6-435d-b87b-d9f2a88e918e",
+                        "episode": 20,
+                        "path": "./series/The Big Bang Theory/Temporada 2/20 - O Isótopo Hofstadter.mp4"
+                    },
+                    {
+                        "id": "12f1fb61-6375-4c8f-9d10-a02acd1dd2b6",
+                        "episode": 21,
+                        "path": "./series/The Big Bang Theory/Temporada 2/21 - A Renormalização Las Vegas.mp4"
+                    },
+                    {
+                        "id": "25e8e64d-c288-4b0a-96e5-77aeae834fbb",
+                        "episode": 22,
+                        "path": "./series/The Big Bang Theory/Temporada 2/22 - A Turbulência dos Materiais Confidenciais.mp4"
+                    },
+                    {
+                        "id": "97aee46f-e8df-44d5-84f8-466c3dea0c07",
+                        "episode": 23,
+                        "path": "./series/The Big Bang Theory/Temporada 2/23 - A Expedição Monopolar.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 3,
+                "episodes": [
+                    {
+                        "id": "abc4f64f-fabf-4139-aef8-f1f4e2c8dba3",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 3/1 - A Flutuação do Abridor de Lata Elétrico.mp4"
+                    },
+                    {
+                        "id": "a9165d8c-e850-431e-b3a2-2ad98865d23e",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 3/2 - A Conjectura Jiminy.mp4"
+                    },
+                    {
+                        "id": "7897c8d8-64e6-42c7-944d-61ff57b800fd",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 3/3 - O Desvio Góticowitz.mp4"
+                    },
+                    {
+                        "id": "7cde3481-ad96-4c82-acad-247a8b708176",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 3/4 - A Solução Pirata.mp4"
+                    },
+                    {
+                        "id": "23553311-8763-48ee-af33-ee69abaff9e8",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 3/5 - O Teorema da Camada de Açúcar Queimado.mp4"
+                    },
+                    {
+                        "id": "73f10c7c-72fb-48a8-a4be-350b05d14eb6",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 3/6 - O Vórtice Cornhusker.mp4"
+                    },
+                    {
+                        "id": "239d8a51-2276-47dd-b343-d19358afa357",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 3/7 - A Amplificação do Guitarrista.mp4"
+                    },
+                    {
+                        "id": "ae36ce8c-4446-41fb-ae46-8506b0c4e543",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 3/8 - A Deficiência de Adesivos de Pato.mp4"
+                    },
+                    {
+                        "id": "4c57eec7-6c56-4335-9f1c-dd46d08aeb51",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 3/9 - A Fórmula da Vingança.mp4"
+                    },
+                    {
+                        "id": "431a8717-bec3-45d1-9aee-d25677e98c4d",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 3/10 - A Experiência do Gorila.mp4"
+                    },
+                    {
+                        "id": "b8032911-71b2-4a85-8db9-f857f76324e1",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 3/11 - A Congruência Maternal.mp4"
+                    },
+                    {
+                        "id": "e92c67ec-71cb-4a00-a0f4-5bda2e167257",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 3/12 - O Vórtice da Vidente.mp4"
+                    },
+                    {
+                        "id": "9a3c090e-b96b-44c8-b5dc-ae2c688d9630",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 3/13 - A Reação de Bozeman.mp4"
+                    },
+                    {
+                        "id": "4ef368e2-4a42-4dcf-8a0d-024983789910",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 3/14 - A Aproximação de Einstein.mp4"
+                    },
+                    {
+                        "id": "56857d9b-b76b-4b32-9d7c-cf99b6168ea1",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 3/15 - A Grande Colisão de Hadrons.mp4"
+                    },
+                    {
+                        "id": "c0e0ffc1-e691-4b99-9839-ecc68694542b",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 3/16 - A Aquisição Excelsior.mp4"
+                    },
+                    {
+                        "id": "f5e26a6f-22ec-4cc3-ac33-d3c77effdf77",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 3/17 - A Fragmentação do Precioso.mp4"
+                    },
+                    {
+                        "id": "daf3581b-18f5-4983-b7c3-b924479b3053",
+                        "episode": 18,
+                        "path": "./series/The Big Bang Theory/Temporada 3/18 - A Alternativa das Calças.mp4"
+                    },
+                    {
+                        "id": "46a6463c-611f-4c31-a75e-839f63b200e7",
+                        "episode": 19,
+                        "path": "./series/The Big Bang Theory/Temporada 3/19 - A Recorrência Wheaton.mp4"
+                    },
+                    {
+                        "id": "97b68855-59dd-411d-9db9-82c51a34b6f3",
+                        "episode": 20,
+                        "path": "./series/The Big Bang Theory/Temporada 3/20 - O Espaguete Catalisador.mp4"
+                    },
+                    {
+                        "id": "2302d163-7dbe-4c94-b261-b5ea990a26ee",
+                        "episode": 21,
+                        "path": "./series/The Big Bang Theory/Temporada 3/21 - A Estimulação Plimpton.mp4"
+                    },
+                    {
+                        "id": "aa39bc0d-05b0-48c8-b4ef-a16baad80a25",
+                        "episode": 22,
+                        "path": "./series/The Big Bang Theory/Temporada 3/22 - A Implementação da Escadaria.mp4"
+                    },
+                    {
+                        "id": "b373de47-e852-44cd-8ebe-4f0005bfb963",
+                        "episode": 23,
+                        "path": "./series/The Big Bang Theory/Temporada 3/23 - A Excitação Lunar.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 4,
+                "episodes": [
+                    {
+                        "id": "224010e1-5b99-48ef-a44c-7ebd83f0ff08",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 4/1 - A Manipulação Robótica.mp4"
+                    },
+                    {
+                        "id": "bc641bfc-384b-44f9-961f-b16a0c8cc2c0",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 4/2 - A Amplificação dos Vegetais.mp4"
+                    },
+                    {
+                        "id": "215702a3-ddea-4f97-a0f6-840b918858b3",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 4/3 - A Substituição Jazzy.mp4"
+                    },
+                    {
+                        "id": "8d478158-288f-4b32-a06f-ad3ec872613e",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 4/4 - O Desvio da Troll Gostosa.mp4"
+                    },
+                    {
+                        "id": "a4b8971f-a56e-4e07-a506-75811568ee9a",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 4/5 - A Emanação do Desespero.mp4"
+                    },
+                    {
+                        "id": "84655b3d-8aa3-4c53-8544-f66ba5915653",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 4/6 - A Formulação do Pub.mp4"
+                    },
+                    {
+                        "id": "cf35f1db-3474-4001-8706-7f255a2ec79a",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 4/7 - A Insuficiência das Desculpas.mp4"
+                    },
+                    {
+                        "id": "29c0535d-58e1-4409-87f1-81a242dd0a6d",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 4/8 - A Excitação de 21 Segundos.mp4"
+                    },
+                    {
+                        "id": "61b15557-32e4-40f2-aded-2709826b3d1d",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 4/9 - A Complexidade do Namorado.mp4"
+                    },
+                    {
+                        "id": "6b82002c-374a-446a-b16c-b3c4bc5546d3",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 4/10 - A Hipótese do Parasita Alienígena.mp4"
+                    },
+                    {
+                        "id": "6ab54636-3fdc-4441-a0c7-2349b2138b2c",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 4/11 - A Recombinação da Liga da Justiça.mp4"
+                    },
+                    {
+                        "id": "3df1fc73-5763-41dc-aaff-d1babc834730",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 4/12 - A Utilização das Calças de Ônibus.mp4"
+                    },
+                    {
+                        "id": "ab9dbbab-e5e7-41cb-9fa8-cbbe8091fb03",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 4/13 - O Deslocamento do Carro do Amor.mp4"
+                    },
+                    {
+                        "id": "a175499f-f9ea-4c02-aa87-559dac87aa9d",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 4/14 - A Tespia Catalisadora.mp4"
+                    },
+                    {
+                        "id": "0ae92cf4-294b-4853-87c1-ef61591443df",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 4/15 - O Fator da Doadora.mp4"
+                    },
+                    {
+                        "id": "4b37d656-9be9-45b7-a048-720b9b751059",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 4/16 - A Formulação da Co-Habitação.mp4"
+                    },
+                    {
+                        "id": "d6ca6ece-beb0-4236-8a7e-6d99d9d8db7f",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 4/17 - A Derivação do Brinde.mp4"
+                    },
+                    {
+                        "id": "96735833-24b2-43db-bd4d-01bed767d90b",
+                        "episode": 18,
+                        "path": "./series/The Big Bang Theory/Temporada 4/18 - A Aproximação da Prestidigitação.mp4"
+                    },
+                    {
+                        "id": "67b6af2a-0fc3-4657-a6aa-43e3be2247b2",
+                        "episode": 19,
+                        "path": "./series/The Big Bang Theory/Temporada 4/19 - A Incursão Zarnecki.mp4"
+                    },
+                    {
+                        "id": "6e299957-06ee-4245-8585-702df33e0382",
+                        "episode": 20,
+                        "path": "./series/The Big Bang Theory/Temporada 4/20 - A Germinação do Jardim de Ervas.mp4"
+                    },
+                    {
+                        "id": "c5569e3d-7dbf-415e-8401-5b6fae091386",
+                        "episode": 21,
+                        "path": "./series/The Big Bang Theory/Temporada 4/21 - A Dissecação do Acordo.mp4"
+                    },
+                    {
+                        "id": "2b15c62a-212d-4319-a475-4515c6fa5031",
+                        "episode": 22,
+                        "path": "./series/The Big Bang Theory/Temporada 4/22 - A Implementação do Gnú.mp4"
+                    },
+                    {
+                        "id": "f3d5d38e-b7ba-4590-96ac-d294b9943fd1",
+                        "episode": 23,
+                        "path": "./series/The Big Bang Theory/Temporada 4/23 - A Reação ao Noivado.mp4"
+                    },
+                    {
+                        "id": "f7e549ad-430c-420d-910b-0a1127120378",
+                        "episode": 24,
+                        "path": "./series/The Big Bang Theory/Temporada 4/24 - A Transmogrificação do Colega.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 5,
+                "episodes": [
+                    {
+                        "id": "2dbb47a1-86eb-4737-a5e5-90d06db78afb",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 5/1 - The Skank Reflex Analysis.mp4"
+                    },
+                    {
+                        "id": "2ea27382-bc28-4669-9fc1-28472e40f912",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 5/2 - The Infestation Hypothesis.mp4"
+                    },
+                    {
+                        "id": "f838db41-e700-43cf-b737-909f9f9ed03f",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 5/3 - The Pulled Groin Extrapolation.mp4"
+                    },
+                    {
+                        "id": "9b2714a5-895a-46c7-a5a4-47dd82602a84",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 5/4 - The Wiggly Finger Catalyst.mp4"
+                    },
+                    {
+                        "id": "b0066ed8-50b3-44a8-8de8-5927a3bda5b1",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 5/5 - The Russian Rocket Reaction.mp4"
+                    },
+                    {
+                        "id": "4162553c-80c9-48fd-ae79-f4dd2fc6cd5b",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 5/6 - The Rhinitis Revelation.mp4"
+                    },
+                    {
+                        "id": "8a1a59bd-3a7c-4105-a313-1861df265ee0",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 5/7 - The Good Guy Fluctuation.mp4"
+                    },
+                    {
+                        "id": "9939205d-559b-4911-a7f3-4086a3d8a5a1",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 5/8 - The Isolation Permutation.mp4"
+                    },
+                    {
+                        "id": "3474847b-fff4-4294-aa46-42b1ab447360",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 5/9 - The Ornithophobia Diffusion.mp4"
+                    },
+                    {
+                        "id": "4f5c7764-8f91-46e8-92e4-664a4e1fccaa",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 5/10 - The Flaming Spittoon Acquisition.mp4"
+                    },
+                    {
+                        "id": "a796f806-b301-43cb-b708-36c3c4405121",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 5/11 - The Speckerman Recurrence.mp4"
+                    },
+                    {
+                        "id": "14a11084-175c-48c5-9d2d-e85b97695f76",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 5/12 - The Shiny Trinket Maneuver.mp4"
+                    },
+                    {
+                        "id": "2f8d09bf-108a-43d9-8a1d-b35e72d66f92",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 5/13 - The Recombination Hypothesis.mp4"
+                    },
+                    {
+                        "id": "c7e9f804-c420-451c-8f6e-b8f629c3213e",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 5/14 - The Beta Test Initiation.mp4"
+                    },
+                    {
+                        "id": "91f106cd-4840-4058-8e9f-22e1c676dd37",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 5/15 - The Friendship Contraction.mp4"
+                    },
+                    {
+                        "id": "b5f85666-b3ef-4f98-b15c-2c1c50f8f503",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 5/16 - The Vacation Solution.mp4"
+                    },
+                    {
+                        "id": "8f1a74e2-c74e-40aa-a6c4-df6279bf5bb0",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 5/17 - The Rothman Disintegration.mp4"
+                    },
+                    {
+                        "id": "ecd8b9f1-4c7c-423c-a781-6c2fb6c6fcc7",
+                        "episode": 18,
+                        "path": "./series/The Big Bang Theory/Temporada 5/18 - The Werewolf Transformation.mp4"
+                    },
+                    {
+                        "id": "364cde23-9500-4935-ac04-35e6c32c127e",
+                        "episode": 19,
+                        "path": "./series/The Big Bang Theory/Temporada 5/19 - The Weekend Vortex.mp4"
+                    },
+                    {
+                        "id": "b3942516-e948-48d3-93af-c6c5442638dd",
+                        "episode": 20,
+                        "path": "./series/The Big Bang Theory/Temporada 5/20 - The Transporter Malfunction.mp4"
+                    },
+                    {
+                        "id": "995e96af-dd60-41ad-a707-a624d94f53b2",
+                        "episode": 21,
+                        "path": "./series/The Big Bang Theory/Temporada 5/21 - The Hawking Excitation.mp4"
+                    },
+                    {
+                        "id": "f1a7ace7-fe35-41fd-b592-8367bebfec95",
+                        "episode": 22,
+                        "path": "./series/The Big Bang Theory/Temporada 5/22 - The Stag Convergence.mp4"
+                    },
+                    {
+                        "id": "235182e7-79f1-45e9-8073-a1d76664dc2c",
+                        "episode": 23,
+                        "path": "./series/The Big Bang Theory/Temporada 5/23 - The Launch Acceleration.mp4"
+                    },
+                    {
+                        "id": "221a6c5b-1b4a-4b78-b7f4-506229449635",
+                        "episode": 24,
+                        "path": "./series/The Big Bang Theory/Temporada 5/24 - The Countdown Reflection.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 6,
+                "episodes": [
+                    {
+                        "id": "4c450077-69f2-4391-a05b-471234228474",
+                        "episode": 1,
+                        "path": "./series/The Big Bang Theory/Temporada 6/01 - The Date Night Variable.mp4"
+                    },
+                    {
+                        "id": "3408c18a-08da-4743-a28c-24921ade0c9f",
+                        "episode": 2,
+                        "path": "./series/The Big Bang Theory/Temporada 6/02 - The Decoupling Fluctuation.mp4"
+                    },
+                    {
+                        "id": "2e2da29f-97b1-4f81-8c88-d1e91ba37ef8",
+                        "episode": 3,
+                        "path": "./series/The Big Bang Theory/Temporada 6/03 - The Higgs Boson Observation.mp4"
+                    },
+                    {
+                        "id": "34a6b1de-d3ba-4510-86de-b1557ab17767",
+                        "episode": 4,
+                        "path": "./series/The Big Bang Theory/Temporada 6/04 - The Re-Entry Minimization.mp4"
+                    },
+                    {
+                        "id": "247c24e2-3aa3-4eb1-9884-70b6a2298d25",
+                        "episode": 5,
+                        "path": "./series/The Big Bang Theory/Temporada 6/05 - The Holographic Excitation.mp4"
+                    },
+                    {
+                        "id": "21eb24a9-cfe9-401d-92e0-d481b3a83d82",
+                        "episode": 6,
+                        "path": "./series/The Big Bang Theory/Temporada 6/06 - The Extract Obliteration.mp4"
+                    },
+                    {
+                        "id": "a9ad40f9-5032-46c5-a9af-b1a7d7e2d065",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 6/07 - The Habitation Configuration.mp4"
+                    },
+                    {
+                        "id": "525b49ec-c311-45c2-951c-01f186a01cb7",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 6/08 - The 43 Peculiarity.mp4"
+                    },
+                    {
+                        "id": "99f1b1cf-1799-4774-b67b-41ece6315f81",
+                        "episode": 9,
+                        "path": "./series/The Big Bang Theory/Temporada 6/09 - The Parking Spot Escalation.mp4"
+                    },
+                    {
+                        "id": "d3fb656a-b186-46ce-bc80-86b959476cdc",
+                        "episode": 10,
+                        "path": "./series/The Big Bang Theory/Temporada 6/10 - The Fish Guts Displacement.mp4"
+                    },
+                    {
+                        "id": "669bd498-d294-4606-9433-19dcbf81d173",
+                        "episode": 11,
+                        "path": "./series/The Big Bang Theory/Temporada 6/11 - The Santa Simulation.mp4"
+                    },
+                    {
+                        "id": "6aab8ea0-610b-4cd0-ae64-0b42271ae6b6",
+                        "episode": 12,
+                        "path": "./series/The Big Bang Theory/Temporada 6/12 - The Egg Salad Equivalency.mp4"
+                    },
+                    {
+                        "id": "7a8eff1a-a9f1-4be1-8dd4-bf0aee58abac",
+                        "episode": 13,
+                        "path": "./series/The Big Bang Theory/Temporada 6/13 - The Bakersfield Expedition.mp4"
+                    },
+                    {
+                        "id": "2a1deb60-114f-4c63-ab3f-0ad7a46c846e",
+                        "episode": 14,
+                        "path": "./series/The Big Bang Theory/Temporada 6/14 - The Cooper.mp4"
+                    },
+                    {
+                        "id": "2384162c-b512-44a1-892d-c9df23fb1562",
+                        "episode": 15,
+                        "path": "./series/The Big Bang Theory/Temporada 6/15 - The Spoiler Alert Segmentation.mp4"
+                    },
+                    {
+                        "id": "3111dd2c-9550-4ae8-9a30-c744afb6ae58",
+                        "episode": 16,
+                        "path": "./series/The Big Bang Theory/Temporada 6/16 - The Tangible Affection Proof.mp4"
+                    },
+                    {
+                        "id": "aa9da98d-42cf-4d6b-bfbb-541e56eedba8",
+                        "episode": 17,
+                        "path": "./series/The Big Bang Theory/Temporada 6/17 - The Monster Isolation.mp4"
+                    },
+                    {
+                        "id": "97b4f539-5f98-41d5-b985-064f24a65dbc",
+                        "episode": 18,
+                        "path": "./series/The Big Bang Theory/Temporada 6/18 - The Contractual Obligation Implementation.mp4"
+                    },
+                    {
+                        "id": "84fb334a-9e7e-4944-8428-4f1eae98d598",
+                        "episode": 19,
+                        "path": "./series/The Big Bang Theory/Temporada 6/19 - The Closet Reconfiguration.mp4"
+                    },
+                    {
+                        "id": "861c5d44-97ca-4b7c-b677-62319ec21d7f",
+                        "episode": 20,
+                        "path": "./series/The Big Bang Theory/Temporada 6/20 - The Tenure Torbulance.mp4"
+                    },
+                    {
+                        "id": "fa019a3d-dfb5-47ec-882c-5132e4c7b41e",
+                        "episode": 21,
+                        "path": "./series/The Big Bang Theory/Temporada 6/21 - The Closure Alternative.mp4"
+                    },
+                    {
+                        "id": "5ef06aa5-2e34-46f3-8f87-d4a32035280f",
+                        "episode": 22,
+                        "path": "./series/The Big Bang Theory/Temporada 6/22 - The Proton Resurgence.mp4"
+                    },
+                    {
+                        "id": "e7aa7a8b-9a70-483e-8f50-31537d31bd09",
+                        "episode": 23,
+                        "path": "./series/The Big Bang Theory/Temporada 6/23 - The Love Spell Potential.mp4"
+                    },
+                    {
+                        "id": "67c7913a-898a-47a6-b87c-f23b957b1769",
+                        "episode": 24,
+                        "path": "./series/The Big Bang Theory/Temporada 6/24 - The Bon Voyage Reaction.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 7,
+                "episodes": [
+                    {
+                        "id": "f34c8641-b147-4be2-b492-d851e3c2599d",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x01 - The Hofstadter Insufficiency.mp4"
+                    },
+                    {
+                        "id": "47e3cacb-3e33-4d53-89a0-3fa848d429f0",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x02 - The Deception Verification.mp4"
+                    },
+                    {
+                        "id": "9654e8d8-3dd6-4e86-860d-c1c153b09158",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x03 - The Scavenger Vortex.mp4"
+                    },
+                    {
+                        "id": "1a873633-55e7-407a-b603-43053cb4df5e",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x04 - The Raiders Minimization.mp4"
+                    },
+                    {
+                        "id": "f722fa7f-a33b-477d-b21e-5ca9cc10b08b",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x05 - The Workplace Proximity.mp4"
+                    },
+                    {
+                        "id": "73533217-ac26-4a6e-bda6-f4bc8b14e2c8",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x06 - The Romance Resonance.mp4"
+                    },
+                    {
+                        "id": "7d22f790-4b1a-4c36-bac4-8c5f610ba928",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x07 - The Proton Displacement.mp4"
+                    },
+                    {
+                        "id": "1a6cdeba-2788-49e4-82a1-4bf4ac6668c6",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x08 - The Itchy Brain Simulation.mp4"
+                    },
+                    {
+                        "id": "2115d52d-dc91-40f4-b91b-7c09521ad540",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x09 - The Thanksgiving Decoupling.mp4"
+                    },
+                    {
+                        "id": "67673152-c74f-465d-85c7-ac72e90a64c7",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x10 - The Discovery Dissipation.mp4"
+                    },
+                    {
+                        "id": "d87c3751-b8bc-4bc2-9c89-c793cae9b3c3",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x11 - The Cooper Extraction.mp4"
+                    },
+                    {
+                        "id": "41c074b6-0bbd-4779-b77a-c10908e39ff9",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x12 - The Hesitation Ramification.mp4"
+                    },
+                    {
+                        "id": "d11d4340-2e98-451e-a658-be44c9f4e2c5",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x13 - The Occupation Recalibratione.mp4"
+                    },
+                    {
+                        "id": "b086164d-ba9b-40e4-a875-f2a50d1f86ed",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x14 - The Convention Conundrum.mp4"
+                    },
+                    {
+                        "id": "7e338255-6ce8-4ea2-a75d-90334e6e748f",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x15 - The Locomotive Manipulation.mp4"
+                    },
+                    {
+                        "id": "e1d3a2d4-8c2e-4882-b776-509815c7a071",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x16 - The Table Polarization.mp4"
+                    },
+                    {
+                        "id": "0c94c739-f6f8-4f33-9e4f-156bc489451c",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x17 - The Friendship Turbulence.mp4"
+                    },
+                    {
+                        "id": "7ded8ca3-8273-4c52-9e61-23289eb5eb16",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x18 - The Mommy Observation.mp4"
+                    },
+                    {
+                        "id": "d7c5f590-3b03-4605-b133-b0e5b47454b5",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x19 - The Indecision Amalgamation.mp4"
+                    },
+                    {
+                        "id": "b9c95813-0801-41e9-ba07-2680c5d82bad",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x20 - The Relationship Diremption.mp4"
+                    },
+                    {
+                        "id": "de31e0c1-b1c9-47d8-98a4-19ed4534137a",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x21 - The Anything Can Happen Recurrence.mp4"
+                    },
+                    {
+                        "id": "7543c6f2-d374-45f2-8da8-c714cf26157c",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x22 - The Proton Transmogrification.mp4"
+                    },
+                    {
+                        "id": "be2bb631-b3b7-425b-9d27-46cdcbb515a0",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x23 - The Gorilla Dissolution.mp4"
+                    },
+                    {
+                        "id": "d8070779-8470-438a-977f-aa8d8dd61e61",
+                        "episode": 7,
+                        "path": "./series/The Big Bang Theory/Temporada 7/7x24 - The Status Quo Combustion.mp4"
+                    }
+                ]
+            },
+            {
+                "season": 8,
+                "episodes": [
+                    {
+                        "id": "264fe322-24b6-4208-af29-a45b6271e1e9",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E01 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "b80a388e-d668-4e2e-8875-03690e2d6139",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E02 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "43832c35-83b7-46f0-adf9-f327c45a26eb",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E03 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "7c234c4a-71a7-4f1e-aee1-38435662738c",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E04 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "b79a97d0-8a13-458a-9357-a0cb6277817c",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E05 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "5d9b4f41-de6c-485f-8a63-62e9432bbd34",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E06 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "3e0ef710-7bb5-4e24-884a-3b36609c724c",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E07 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "c30a0f4c-9e5a-45e7-a707-e37be1bdc099",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E08 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "89d33282-8ec2-48b1-9dc0-f8424097144c",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E09 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "7efcd354-45dc-45d5-b4f0-9fad3055a5a6",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E10 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "b64573c3-3d1c-4320-9d53-34628d32c72f",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E11 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "ade0344b-a0ff-419f-9c53-2aac294603fe",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E12 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "98a5727d-9f84-4b57-b369-2cfc54f94ab8",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E13 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "f6b067cd-19d8-4c35-8417-52a63db2788d",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E14 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "c90ab007-b2f8-4226-a976-911659832967",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E15 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "15840685-c92c-4c0e-98ff-89811738b7eb",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E16 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "44c0c0e6-940b-4d94-8266-27235ca6c842",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E17 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "90e91b86-c9f9-4615-b2d4-51b5c7ab4417",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E18 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "f4a3141d-f8c7-4073-91a4-b4b71fc9274f",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E19 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "fc21cea3-6227-469c-9fe5-5ffdc8641f7b",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E20 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "9b45f11f-c5a2-4ae0-8b0d-2ffdbbaa8b85",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E21 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "d0f61a4e-9715-4dbb-93ce-57cc11151f72",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E22 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "f3c55a4e-e425-43e2-94b9-260120851468",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E23 [720p] - By-LuanHarper.mp4"
+                    },
+                    {
+                        "id": "416594fe-fcf8-4813-b5db-338d2e44a0c8",
+                        "episode": 8,
+                        "path": "./series/The Big Bang Theory/Temporada 8/The Big Bang Theory S08E24 [720p] - By-LuanHarper.mp4"
+                    }
+                ]
+            }
+        ]
+    }
+]

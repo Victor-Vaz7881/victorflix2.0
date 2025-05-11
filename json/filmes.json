@@ -1,0 +1,224 @@
+[
+    {
+        "id": "390a282d-edfe-47d2-9930-bb641877d3aa",
+        "nome": "A Era do Gelo 1",
+        "path": "./filmes/A Era do Gelo 1.mp4",
+        "cover": "./capas/A Era do Gelo 1.jpg"
+    },
+    {
+        "id": "bf7b17fa-ac26-4ddb-9a19-271c0faebfb6",
+        "nome": "Como Treinar o Seu Dragao 1",
+        "path": "./filmes/Como Treinar o Seu Dragao 1.mp4",
+        "cover": "./capas/Como Treinar o Seu Dragao 1.jpg"
+    },
+    {
+        "id": "49b2b5bc-aee7-4933-8c89-83128c0615ad",
+        "nome": "Espetacular Homem Aranha 1",
+        "path": "./filmes/Espetacular Homem Aranha 1.mp4",
+        "cover": "./capas/Espetacular Homem Aranha 1.jpg"
+    },
+    {
+        "id": "0fdc8d46-c651-47ca-8c4e-32dd2b4ac7c3",
+        "nome": "A Era do Gelo 2",
+        "path": "./filmes/A Era do Gelo 2.mp4",
+        "cover": "./capas/A Era do Gelo 2.jpg"
+    },
+    {
+        "id": "758f74c2-b017-493e-bcc8-ae6e550a8c58",
+        "nome": "Como Treinar o Seu Dragao 2",
+        "path": "./filmes/Como Treinar o Seu Dragao 2.mp4",
+        "cover": "./capas/Como Treinar o Seu Dragao 2.jpg"
+    },
+    {
+        "id": "dd8369d3-4502-482d-bc83-3dc63f1fc129",
+        "nome": "Deu a Louca na Chapeuzinho 2",
+        "path": "./filmes/Deu a Louca na Chapeuzinho 2.mp4",
+        "cover": "./capas/Deu a Louca na Chapeuzinho 2.jpg"
+    },
+    {
+        "id": "93372185-71f4-4dc7-8537-71670f9d73e8",
+        "nome": "RUFUS 2",
+        "path": "./filmes/RUFUS 2.mp4",
+        "cover": "./capas/RUFUS 2.jpg"
+    },
+    {
+        "id": "08105054-fa9e-4da9-b20d-217cc275ea0e",
+        "nome": "Como Treinar o Seu Dragao 3",
+        "path": "./filmes/Como Treinar o Seu Dragao 3.mp4",
+        "cover": "./capas/Como Treinar o Seu Dragao 3.jpg"
+    },
+    {
+        "id": "76c85e1a-9053-4723-927e-2adc7186ad57",
+        "nome": "A Família do Futuro",
+        "path": "./filmes/A Família do Futuro.mp4",
+        "cover": "./capas/A Família do Futuro.jpg"
+    },
+    {
+        "id": "08ced6d9-fa97-4c61-858a-e0af5862037b",
+        "nome": "A Fuga das Galinhas",
+        "path": "./filmes/A Fuga das Galinhas.mp4",
+        "cover": "./capas/A Fuga das Galinhas.jpg"
+    },
+    {
+        "id": "60fd3fb8-9113-4eae-82ca-dc26f21419fb",
+        "nome": "Alvin e os Esquilos ",
+        "path": "./filmes/Alvin e os Esquilos .mp4",
+        "cover": "./capas/Alvin e os Esquilos .jpg"
+    },
+    {
+        "id": "1091e2e7-51e2-4935-bbb3-13110a0e6246",
+        "nome": "As Aventuras de Tintim",
+        "path": "./filmes/As Aventuras de Tintim.mp4",
+        "cover": "./capas/As Aventuras de Tintim.jpg"
+    },
+    {
+        "id": "baf13565-ca95-4655-b016-2a4e49c61a85",
+        "nome": "Deu a Louca na Chapeuzinho",
+        "path": "./filmes/Deu a Louca na Chapeuzinho.mp4",
+        "cover": "./capas/Deu a Louca na Chapeuzinho.jpg"
+    },
+    {
+        "id": "2cef8b9a-e339-406d-9276-d1eecb594b07",
+        "nome": "Dinossauro",
+        "path": "./filmes/Dinossauro.mp4",
+        "cover": "./capas/Dinossauro.jpg"
+    },
+    {
+        "id": "cb615f12-0aaa-4a80-a68b-55c7ce434e0f",
+        "nome": "Haikyuu Batalha do Lixão",
+        "path": "./filmes/Haikyuu Batalha do Lixão.mp4",
+        "cover": "./capas/Haikyuu Batalha do Lixão.jpg"
+    },
+    {
+        "id": "5c2eaa83-648c-47f2-8dbd-9e79e642f36f",
+        "nome": "Happy Feet",
+        "path": "./filmes/Happy Feet.mp4",
+        "cover": "./capas/Happy Feet.jpg"
+    },
+    {
+        "id": "014ff544-25fb-4eba-8eb5-952e8bd86465",
+        "nome": "Irmão Ursos",
+        "path": "./filmes/Irmão Ursos.mp4",
+        "cover": "./capas/Irmão Ursos.jpg"
+    },
+    {
+        "id": "21f7d02f-6de0-4f82-b603-d97d51fd3733",
+        "nome": "Kraven O Caçador",
+        "path": "./filmes/Kraven O Caçador.mp4",
+        "cover": "./capas/Kraven O Caçador.jpg"
+    },
+    {
+        "id": "4aa3a84c-68ce-47d2-a700-c36d9bc260e5",
+        "nome": "Luck",
+        "path": "./filmes/Luck.mp4",
+        "cover": "./capas/Luck.jpg"
+    },
+    {
+        "id": "819c0387-5780-4d66-baa7-e3aca513cdba",
+        "nome": "Meu Malvado Favorito 4",
+        "path": "./filmes/Meu Malvado Favorito 4.mp4",
+        "cover": "./capas/Meu Malvado Favorito 4.jpg"
+    },
+    {
+        "id": "44b36ade-528d-4d66-9899-d918be71044f",
+        "nome": "Monstros S.A.",
+        "path": "./filmes/Monstros S.A..mp4",
+        "cover": "./capas/Monstros S.A..jpg"
+    },
+    {
+        "id": "08f9f577-d902-45ad-b8b7-3b4bb781dec4",
+        "nome": "O Grinch",
+        "path": "./filmes/O Grinch.mp4",
+        "cover": "./capas/O Grinch.jpg"
+    },
+    {
+        "id": "86bffdcf-d760-407a-ae82-7a528af56d9b",
+        "nome": "Operação Natal",
+        "path": "./filmes/Operação Natal.mp4",
+        "cover": "./capas/Operação Natal.jpg"
+    },
+    {
+        "id": "b3cff625-3288-4b4f-849a-4db643cc9361",
+        "nome": "Os Simpsons",
+        "path": "./filmes/Os Simpsons.mp4",
+        "cover": "./capas/Os Simpsons.jpg"
+    },
+    {
+        "id": "cff38a6d-aa27-481c-9029-31151b0b5b51",
+        "nome": "Procurando Nemo",
+        "path": "./filmes/Procurando Nemo.mp4",
+        "cover": "./capas/Procurando Nemo.jpg"
+    },
+    {
+        "id": "4641529d-fd82-4cdd-be33-db4c103dd247",
+        "nome": "Reino Escondido",
+        "path": "./filmes/Reino Escondido.mp4",
+        "cover": "./capas/Reino Escondido.jpg"
+    },
+    {
+        "id": "1288ae48-1509-4b54-9832-dc66fc141409",
+        "nome": "Riverdance Uma Aventura Dançante",
+        "path": "./filmes/Riverdance Uma Aventura Dançante.mp4",
+        "cover": "./capas/Riverdance Uma Aventura Dançante.jpg"
+    },
+    {
+        "id": "3c401cf0-9556-42b0-a21a-b86d30bd99c1",
+        "nome": "Robo Selvagem",
+        "path": "./filmes/Robo Selvagem.mp4",
+        "cover": "./capas/Robo Selvagem.jpg"
+    },
+    {
+        "id": "e5aae86d-a184-4a5c-b266-804aa512638a",
+        "nome": "Robôs",
+        "path": "./filmes/Robôs.mp4",
+        "cover": "./capas/Robôs.jpg"
+    },
+    {
+        "id": "74374178-a0d2-44a9-ae31-86d672b3b46d",
+        "nome": "Selvagem",
+        "path": "./filmes/Selvagem.mp4",
+        "cover": "./capas/Selvagem.jpg"
+    },
+    {
+        "id": "ebf3b403-8363-4502-af11-f421d6d2d390",
+        "nome": "Shrek",
+        "path": "./filmes/Shrek.mp4",
+        "cover": "./capas/Shrek.jpg"
+    },
+    {
+        "id": "eddf17ac-04b0-4b3c-8ae7-fd22e5783549",
+        "nome": "Tarzan",
+        "path": "./filmes/Tarzan.mp4",
+        "cover": "./capas/Tarzan.jpg"
+    },
+    {
+        "id": "7f855c8e-5534-4164-a47f-c61617ce2681",
+        "nome": "Tenki No Ko",
+        "path": "./filmes/Tenki No Ko.mp4",
+        "cover": "./capas/Tenki No Ko.jpg"
+    },
+    {
+        "id": "9a8256c3-fa98-48c9-bf3d-588d772baec7",
+        "nome": "Toy Story",
+        "path": "./filmes/Toy Story.mp4",
+        "cover": "./capas/Toy Story.jpg"
+    },
+    {
+        "id": "c57db6b9-23a7-47cf-ab4c-14aa1dc0c199",
+        "nome": "Venom A Ultima Rodada",
+        "path": "./filmes/Venom A Ultima Rodada.mp4",
+        "cover": "./capas/Venom A Ultima Rodada.jpg"
+    },
+    {
+        "id": "1703649e-6367-4502-b6df-207be927f4ed",
+        "nome": "Whatchman",
+        "path": "./filmes/Whatchman.mp4",
+        "cover": "./capas/Whatchman.jpg"
+    },
+    {
+        "id": "ff9637f6-b8fa-49a5-a924-7671528e224d",
+        "nome": "Your Name",
+        "path": "./filmes/Your Name.mp4",
+        "cover": "./capas/Your Name.jpg"
+    }
+]

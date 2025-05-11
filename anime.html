@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VictorFLIX – Anime</title>
+  <link rel="stylesheet" href="beckend/animestyle.css">
+</head>
+<body>
+  <!-- 1) bloco de fundo para receber a capa via JS -->
+  <div class="background-container"></div>
+
+  <header class="navbar">
+    <div class="navbar-container">
+      <div class="logo-flix">
+        <a href="index.html"><img src="/imagens/VictorFlixlogo.gif" alt="VictorFLIX"></a>
+      </div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pserie.html">Séries</a></li>
+          <li><a href="pfilme.html">Filmes</a></li>
+          <li><a href="panime.html">Animes</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <div class="search-icon" id="search-icon">
+          <img src="/imagens/lupa.png" alt="">
+        </div>
+        <div class="search-bar" id="search-bar">
+          <input type="text" id="search-input" placeholder="Pesquisar...">
+          <div class="search-results" id="search-results"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h2 id="movie-title"></h2>
+    <div class="movie-container">
+      <img id="movie-cover" src="" alt="">
+    </div>
+    <div class="episodes-container" id="episodes-list"></div>
+  </main>
+
+  <div id="player-overlay" class="player-overlay">
+    <div class="modal-buttons">
+      <button id="close-player">Fechar</button>
+      <button id="next-episode">Próximo Ep</button>
+    </div>
+    <video id="episode-player" controls>
+      <source id="player-source" src="" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+  </div>
+
+  <script src="beckend/seriescript.js"></script>
+</body>
+</html>

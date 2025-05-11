@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - VictorFLIX</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('imagens/fundo1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .login-container {
+      position: relative;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.85);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      color: #f39c12;
+      font-size: 2.5rem;
+    }
+
+    input, button {
+      width: 100%;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border-radius: 5px;
+      font-size: 1rem;
+      border: none;
+    }
+
+    input {
+      background: #333;
+      color: #fff;
+      border: 1px solid #555;
+    }
+
+    input::placeholder {
+      color: #bbb;
+    }
+
+    button {
+      background-color: #e50914;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #f6121d;
+    }
+
+    .secondary-button {
+      background-color: transparent;
+      color: #bbb;
+      text-decoration: underline;
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
+
+    .secondary-button:hover {
+      color: #fff;
+    }
+
+    .checkbox-captcha {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      background: #222;
+      padding: 12px;
+      border-radius: 5px;
+      margin: 10px 0;
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    .checkbox-captcha input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      accent-color: #2196f3;
+    }
+
+    .checkbox-captcha label {
+      color: #ccc;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .error-message {
+      color: #ff6b6b;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="login-container">
+    <h1>VictorFLIX</h1>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Nome de usuário" required>
+      <input type="password" id="password" placeholder="Senha" required>
+
+      <div class="checkbox-captcha">
+        <input type="checkbox" id="captcha-checkbox" required>
+        <label for="captcha-checkbox">Você não é um robô</label>
+      </div>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <button id="create-account" class="secondary-button">Criar Conta</button>
+    <button id="forgot-password" class="secondary-button">Esqueci a Senha</button>
+
+    <div id="error-message" class="error-message"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('login-form');
+    const errorMessage = document.getElementById('error-message');
+    const createAccountBtn = document.getElementById('create-account');
+    const forgotPasswordBtn = document.getElementById('forgot-password');
+    const captchaCheckbox = document.getElementById('captcha-checkbox');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      if (!username || !password || !captchaCheckbox.checked) {
+        showError("Preencha todos os campos e confirme que você não é um robô.");
+        return;
+      }
+
+      const savedUsers = JSON.parse(localStorage.getItem('victorflixAccounts')) || [];
+
+      const account = savedUsers.find(u => u.username === username && u.password === password);
+
+      if (!account) {
+        showError("Usuário ou senha inválidos.");
+        return;
+      }
+
+      localStorage.setItem('victorflixUser', JSON.stringify({
+        username: account.username,
+        lastLoginDate: new Date().toLocaleDateString()
+      }));
+
+      window.location.href = "index.html";
+    });
+
+    createAccountBtn.addEventListener('click', () => {
+      window.location.href = "cadastro.html";
+    });
+
+    forgotPasswordBtn.addEventListener('click', () => {
+      window.location.href = "esqueci-senha.html";
+    });
+
+    function showError(message) {
+      errorMessage.style.display = 'block';
+      errorMessage.textContent = message;
+    }
+  </script>
+</body>
+</html>

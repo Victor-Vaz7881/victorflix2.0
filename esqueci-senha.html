@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esqueci a Senha - VictorFLIX</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('fundo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background: url('imagens/fundo1.jpg') no-repeat center center fixed;
+    }
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .container {
+      position: relative;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 25px;
+      color: #f39c12;
+      font-size: 2rem;
+    }
+    input, button {
+      width: 100%;
+      padding: 12px 15px;
+      margin: 8px 0;
+      border-radius: 5px;
+      font-size: 1rem;
+      border: none;
+      box-sizing: border-box;
+    }
+    input {
+      background: #333;
+      color: #fff;
+      border: 1px solid #555;
+    }
+    input::placeholder {
+      color: #bbb;
+    }
+    button {
+      background-color: #e50914;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #f6121d;
+    }
+    .error-message {
+      color: #ff6b6b;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      display: none;
+    }
+    .success-message {
+      color: #66ff99;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      display: none;
+    }
+    .back-button {
+      margin-top: 15px;
+      background-color: transparent;
+      color: #bbb;
+      text-decoration: underline;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .back-button:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  
+  <div class="container">
+    <h1>Redefinir Senha</h1>
+    <form id="reset-password-form">
+      <input type="text" id="username" placeholder="Nome de usuário" required>
+      <input type="password" id="new-password" placeholder="Nova senha" required>
+      <button type="submit">Redefinir Senha</button>
+    </form>
+    <div id="error-message" class="error-message"></div>
+    <div id="success-message" class="success-message"></div>
+
+    <button class="back-button" onclick="voltarLogin()">Voltar ao login</button>
+  </div>
+
+  <script>
+    const form = document.getElementById('reset-password-form');
+    const errorMessage = document.getElementById('error-message');
+    const successMessage = document.getElementById('success-message');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const username = document.getElementById('username').value.trim();
+      const newPassword = document.getElementById('new-password').value.trim();
+
+      if (!username || !newPassword) {
+        showError("Preencha todos os campos!");
+        return;
+      }
+
+      let accounts = JSON.parse(localStorage.getItem('victorflixAccounts')) || [];
+
+      const userIndex = accounts.findIndex(u => u.username === username);
+
+      if (userIndex === -1) {
+        showError("Usuário não encontrado!");
+        return;
+      }
+
+      // Atualiza a senha
+      accounts[userIndex].password = newPassword;
+      localStorage.setItem('victorflixAccounts', JSON.stringify(accounts));
+
+      showSuccess("Senha redefinida com sucesso!");
+
+      setTimeout(() => {
+        window.location.href = "login.html";
+      }, 2000);
+    });
+
+    function showError(message) {
+      errorMessage.style.display = 'block';
+      errorMessage.textContent = message;
+      successMessage.style.display = 'none';
+    }
+
+    function showSuccess(message) {
+      successMessage.style.display = 'block';
+      successMessage.textContent = message;
+      errorMessage.style.display = 'none';
+    }
+
+    function voltarLogin() {
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
